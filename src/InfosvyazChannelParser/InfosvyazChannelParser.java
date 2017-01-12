@@ -105,8 +105,8 @@ public class InfosvyazChannelParser {
                     Node n = nList2.item(i);
                     Element el = (Element) n;
                     Channel c1 = new Channel(el);
-                    System.out.println(c1);
-                    System.out.println(c1.getUrl());
+//                    System.out.println(c1);
+//                    System.out.println(c1.getUrl());
                     writer.println(c1);
                     writer.println(c1.getUrl());
                 }
